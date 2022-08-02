@@ -1,0 +1,99 @@
+.projects{
+    background-color: #303030;
+}
+
+.allcards{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "footer";
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15xp rgba(0, 0, 0, 0.9);
+    text-align: center;
+    color: black;
+    transition: 0.5s ease;
+}
+
+.card-text{
+    grid-area: text;
+    margin: 10px;
+}
+
+.card-text span{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.card-text p{
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.card-text h2{
+    margin-top: 0;
+    font-size: 28px;
+}
+
+.card-image{
+    grid-area: image;
+    background: url("../Assets/bg.jpg");
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-footer{
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #57ACDC;
+}
+
+.card-footer .git{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border-right: 0.5px solid black
+}
+
+.card-footer .live{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border-left: 0.5px solid black;
+}
+
+.card-footer a{
+    color: white;
+}
+
+
+.header_projects{
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+    font-size: 3rem;
+    letter-spacing: 2px;
+    color: white;
+}
+        
