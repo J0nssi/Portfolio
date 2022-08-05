@@ -10,7 +10,7 @@ const Projects = () => {
         <div>
           <h1 className='header_projects'>PROJECTS</h1>
         </div>
-        <Fade bottom cascade duration={500} delay={250} distance="30px">
+
 
         <div className='allcards'>
         <Tilt scale={1.1} tiltMaxAngleX={15}
@@ -66,7 +66,7 @@ const Projects = () => {
           </div>
         </Tilt>
         </div>
-        </Fade>
+
     </section>
 
   )

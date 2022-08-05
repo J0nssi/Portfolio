@@ -61,14 +61,14 @@
 }
 
 .submit:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     cursor: pointer;
     background-position: 500px;
 }
 
 .arrowup{
     position:absolute;
-    top: 450%;
+    top: 420%;
     left: 50%;
     transform: translate(-50%, -50%);
 }

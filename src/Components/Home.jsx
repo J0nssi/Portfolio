@@ -48,7 +48,7 @@ const Home = () => {
         </Fade>
         <Scrollspy 
         className="navigation" items={ ['home', 'skills', 'projects', 'about', 'contact'] } 
-        currentClassName="isCurrent">
+        currentClassName="isCurrent" offset={-500}>
         <li><a href="#home"><FaDotCircle className='dot'/></a></li>
         <li><a href="#skills"><FaDotCircle className='dot'/></a></li>
         <li><a href="#projects"><FaDotCircle className='dot'/></a></li>

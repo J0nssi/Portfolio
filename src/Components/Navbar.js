@@ -1,7 +1,7 @@
 import React from 'react'
 import "../Styles/Navbar.css";
 import {FaLinkedinIn, FaGithub, FaFile, FaFilePdf} from 'react-icons/fa'
-import cv from "../Assets/CV_Vaija_Joonas_uusi.pdf";
+import cv from "../Assets/Joonas_Vaija_CV.pdf";
 
 
 const Navbar2 = () => {
