@@ -5,7 +5,7 @@
 .allcards{
     display: flex;
     justify-content: space-evenly;
-
+    padding-top: 3rem;
 }
 
 .card{

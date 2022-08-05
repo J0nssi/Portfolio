@@ -10,8 +10,7 @@ const Projects = () => {
         <div>
           <h1 className='header_projects'>PROJECTS</h1>
         </div>
-
-
+        
         <div className='allcards'>
         <Tilt scale={1.1} tiltMaxAngleX={15}
     tiltMaxAngleY={20} transitionSpeed={2500} glareEnable={true} glareMaxOpacity={0.6} glareColor="lightblue" glarePosition="all" glareBorderRadius='15px'>
@@ -66,7 +65,6 @@ const Projects = () => {
           </div>
         </Tilt>
         </div>
-
     </section>
 
   )
