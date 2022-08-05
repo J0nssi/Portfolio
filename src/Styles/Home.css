@@ -15,14 +15,20 @@
     width: 10px;
     height: 10px;
     background-color: transparent;
-    border: 2px solid white;
-    border-radius: 50%;
     margin-top: 20px;
     transition: 200ms ease;
+    list-style: none;
+    color: white;
 }
 
-.navigation li:hover, .navigation li.selected{
-    transform: scale(1.7);
+.dot{
+    color: white;
+    width: 10px;
+    height: 10px;
+}
+
+.navigation li:hover, .isCurrent{
+    transform: scale(1.7) translateY(-3px);;
 }
 
 .name{
@@ -36,6 +42,10 @@
 
 .dev{
     font-size: 4.5rem;
+}
+
+.cursor {
+    animation: blink 1s linear infinite forwards;
 }
 
 .buttons{
@@ -79,7 +89,7 @@
 }
 
 button:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
     cursor: pointer;
     background-position: 500px;
 }

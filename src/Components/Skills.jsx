@@ -74,8 +74,8 @@ const Skills = () => {
             </div>
 
             <div class="container">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" className='icon' />
-            <p>HTML5</p>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-plain.svg" className='icon'/>
+            <p>Material UI</p>
             </div>
 
             <div class="container">
@@ -84,9 +84,15 @@ const Skills = () => {
             </div>
 
             <div class="container">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/materialui/materialui-plain.svg" className='icon'/>
-            <p>Material UI</p>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" className='icon' />
+            <p>TypeScript</p>
             </div>
+
+            <div class="container">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" className='icon' />
+            <p>HTML5</p>
+            </div>
+            
 
           </div>
         </Fade>
@@ -100,12 +106,12 @@ const Skills = () => {
             <p>GitHub</p>
             </div>
             <div class="container">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" className='icon' />
-            <p>Visual Studio Code</p>
-            </div>
-            <div class="container">
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" className='icon'/>
             <p>Photoshop</p>
+            </div>
+            <div class="container">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" className='icon' />
+            <p>Visual Studio Code</p>
             </div>
           </div>
         </Fade>

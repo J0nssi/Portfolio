@@ -5,25 +5,35 @@
     height: 70vh;
 }
 
+.me{
+    margin-top: -9rem;
+}
+
 .header_about{
     text-align: center;
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
     font-size: 3rem;
     letter-spacing: 2px;
     color: white;
 }
 
-.rightside{
-    font-size: 1.5rem;
+.rightside_about{
+    font-size: 1.2rem;
     text-align: left;
+    float: right;
+    width: 45%;
+    padding-top: 2rem;
+    padding-right: 3rem;
 }
 
-.leftside{
+.leftside_about{
     text-align: center;
+    float: left;
+    width: 50%;
 }
 
-.rightside button{
+.rightside_about button{
     margin-top: 2rem;
     font-size: 1.5rem;
     border-radius: 0.5rem;
@@ -35,14 +45,14 @@
     justify-content: center;
 }
 
-.rightside a{
+.rightside_about a{
     color: white;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
 
-.rightside button:hover{
-    transform: scale(1.1);
+.rightside_about button:hover{
+    transform: scale(1.05);
     cursor: pointer;
     background-position: 500px;
 }

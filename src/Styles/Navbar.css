@@ -5,11 +5,11 @@
     gap: 6rem;
     position: fixed;
     right: 0;
-    background-color: #212121;
-    border: 1px;
+    background-color: rgb(33, 33, 33, 0.3);
     border-radius: 5rem;
     margin: 1rem;
     z-index: 1;
+    transition: ease;
 }
 
 @media screen and (max-width: 768px) {
@@ -19,4 +19,8 @@
         margin-right: 6rem;
         padding: 0.5rem;
     }
+}
+
+.navbar a:hover{
+    transform : translateY(-2px)
 }

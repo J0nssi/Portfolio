@@ -76,8 +76,8 @@
 
 .rightside{
     float: right;
-    width: 40%;
-    padding-right: 6%;
+    width: 35%;
+    padding-right: 5%;
 }
 
 .header2{
@@ -86,12 +86,14 @@
 }
 
 .icon{
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 48px;
 }
 
 .container{
-    float: left;
-    text-align: center;
-    padding: 4rem;
+    display: inline-flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding: 3rem;
+    gap: 1rem;
 }

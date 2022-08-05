@@ -1,15 +1,10 @@
 import './App.css';
-import Home from './Components/Home';
-import Navbar from './Components/Navbar2.tsx';
-import Card from './Components/Card.tsx';
+import Home from './Components/Home.jsx';
+import Navbar from './Components/Navbar.js';
 import Skills from './Components/Skills.jsx';
-import About from './Components/About.tsx';
+import About from './Components/About.js';
 import Projects from './Components/Projects.js';
-import Contact from './Components/Contact.tsx';
-
-
-//npm install typescript-parser
-//npm install react-scroll-motion
+import Contact from './Components/Contact.js';
 
 function App() {
   return (

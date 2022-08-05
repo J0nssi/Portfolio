@@ -3,13 +3,13 @@
 
 .contact{
     background-color: #303030;
-    height: 80vh;
+    height: 85vh;
 }
 
 .header_contact{
     text-align: center;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     font-size: 3rem;
     letter-spacing: 2px;
     color: white;
@@ -22,14 +22,14 @@
 }
 
 .form label{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .form input{
     border-radius: 8px;
     padding: 10px;
     width: 400px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .form input:focus{
@@ -68,7 +68,7 @@
 
 .arrowup{
     position:absolute;
-    top: 445%;
+    top: 450%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -94,13 +94,13 @@
 @keyframes animateup{
     0%{
         opacity: 0;
-        transform: rotate(225deg) translate(-20px, -20px);
+        transform: rotate(225deg) translate(-10px, -10px);
     }
     50%{
         opacity: 1;
     }
     100%{
         opacity: 0;
-        transform: rotate(225deg) translate(20px, 20px);
+        transform: rotate(225deg) translate(10px, 10px);
     }
 }
