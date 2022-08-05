@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.6203c715.css",
-    "main.js": "/Portfolio/static/js/main.0aeac617.js",
+    "main.css": "/Portfolio/static/css/main.4081fd4b.css",
+    "main.js": "/Portfolio/static/js/main.66aad6be.js",
     "static/js/787.71e672d5.chunk.js": "/Portfolio/static/js/787.71e672d5.chunk.js",
     "static/media/vilkku.png": "/Portfolio/static/media/vilkku.aefa94e0c578cb8490b4.png",
     "static/media/fps.PNG": "/Portfolio/static/media/fps.af1f963e252626fbfce2.PNG",
     "static/media/bg-flipped.jpg": "/Portfolio/static/media/bg-flipped.c31c0a0cc91d13506edb.jpg",
     "static/media/bg2.jpg": "/Portfolio/static/media/bg2.2b9f6fb5e08d377fe3f0.jpg",
+    "static/media/Joonas_Vaija_CV.pdf": "/Portfolio/static/media/Joonas_Vaija_CV.c39599fdb37da5494b74.pdf",
     "static/media/osrs1.jpg": "/Portfolio/static/media/osrs1.d8fff075b1f5fdd3dc24.jpg",
     "static/media/torso3.png": "/Portfolio/static/media/torso3.e362fedd8de64665a1b8.png",
     "static/media/legs2.png": "/Portfolio/static/media/legs2.0b12d7f30021a6ef5236.png",
-    "static/media/CV_Vaija_Joonas_uusi.pdf": "/Portfolio/static/media/CV_Vaija_Joonas_uusi.6e0f1d6c829e893d9788.pdf",
     "static/media/terrorist.png": "/Portfolio/static/media/terrorist.43b77553ba3e8573525c.png",
     "static/media/me.png": "/Portfolio/static/media/me.5169bb108f8a8161c510.png",
     "static/media/head2.png": "/Portfolio/static/media/head2.899b6e3cc8761c5e697b.png",
-    "static/media/cursor.cur": "/Portfolio/static/media/cursor.39cf008c0f583ac09a2a.cur",
     "index.html": "/Portfolio/index.html",
-    "main.6203c715.css.map": "/Portfolio/static/css/main.6203c715.css.map",
-    "main.0aeac617.js.map": "/Portfolio/static/js/main.0aeac617.js.map",
+    "static/media/cursor.cur": "/Portfolio/static/media/cursor.1a5bac79e705cb0ec4d9.cur",
+    "main.4081fd4b.css.map": "/Portfolio/static/css/main.4081fd4b.css.map",
+    "main.66aad6be.js.map": "/Portfolio/static/js/main.66aad6be.js.map",
     "787.71e672d5.chunk.js.map": "/Portfolio/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6203c715.css",
-    "static/js/main.0aeac617.js"
+    "static/css/main.4081fd4b.css",
+    "static/js/main.66aad6be.js"
   ]
 }
