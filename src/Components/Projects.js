@@ -1,6 +1,8 @@
 import React from 'react'
 import "../Styles/Projects.css";
-import Tilt from 'react-parallax-tilt'
+import Tilt from 'react-parallax-tilt';
+import Fade from 'react-reveal/Fade';
+
 
 const Projects = () => {
   return (
@@ -8,6 +10,8 @@ const Projects = () => {
         <div>
           <h1 className='header_projects'>PROJECTS</h1>
         </div>
+        <Fade bottom cascade duration={500} delay={250} distance="30px">
+
         <div className='allcards'>
         <Tilt scale={1.1} tiltMaxAngleX={15}
     tiltMaxAngleY={20} transitionSpeed={2500} glareEnable={true} glareMaxOpacity={0.6} glareColor="lightblue" glarePosition="all" glareBorderRadius='15px'>
@@ -62,6 +66,7 @@ const Projects = () => {
           </div>
         </Tilt>
         </div>
+        </Fade>
     </section>
 
   )
